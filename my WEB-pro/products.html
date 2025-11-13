@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>K-Mart</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="product-list">
+  <div class="product">
+    <img src="buds.jpeg" alt="Wireless Earbuds" />
+    <h3>Wireless Earbuds</h3>
+    <p>Price: ₹2,999</p>
+    <button onclick="addToWishlist('Wireless Earbuds')">Add to Wishlist</button>
+    <button onclick="addToOrders('Wireless Earbuds')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="iphone.jpeg" alt="Smartphone" />
+    <h3>Smartphone</h3>
+    <p>Price: ₹14,999</p>
+    <button onclick="addToWishlist('Smartphone')">Add to Wishlist</button>
+    <button onclick="addToOrders('Smartphone')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150" alt="Smartwatch" />
+    <h3>Smartwatch</h3>
+    <p>Price: ₹7,999</p>
+    <button onclick="addToWishlist('Smartwatch')">Add to Wishlist</button>
+    <button onclick="addToOrders('Smartwatch')">Order Now</button>
+  </div>
+</section>
+
+<section class="product-list">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=150" alt="Laptop" />
+    <h3>Laptop</h3>
+    <p>Price: ₹49,999</p>
+    <button onclick="addToWishlist('Laptop')">Add to Wishlist</button>
+    <button onclick="addToOrders('Laptop')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="blspeak.jpeg" alt="Bluetooth Speaker" />
+    <h3>Bluetooth Speaker</h3>
+    <p>Price: ₹3,499</p>
+    <button onclick="addToWishlist('Bluetooth Speaker')">Add to Wishlist</button>
+    <button onclick="addToOrders('Bluetooth Speaker')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=150" alt="Digital Camera" />
+    <h3>Digital Camera</h3>
+    <p>Price: ₹24,999</p>
+    <button onclick="addToWishlist('Digital Camera')">Add to Wishlist</button>
+    <button onclick="addToOrders('Digital Camera')">Order Now</button>
+  </div>
+</section>
+
+<section class="product-list">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=150" alt="Gaming Console" />
+    <h3>Gaming Console</h3>
+    <p>Price: ₹39,999</p>
+    <button onclick="addToWishlist('Gaming Console')">Add to Wishlist</button>
+    <button onclick="addToOrders('Gaming Console')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?w=150" alt="Tablet" />
+    <h3>Tablet</h3>
+    <p>Price: ₹19,999</p>
+    <button onclick="addToWishlist('Tablet')">Add to Wishlist</button>
+    <button onclick="addToOrders('Tablet')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150" alt="Headphones" />
+    <h3>Headphones</h3>
+    <p>Price: ₹4,999</p>
+    <button onclick="addToWishlist('Headphones')">Add to Wishlist</button>
+    <button onclick="addToOrders('Headphones')">Order Now</button>
+  </div>
+</section>
+
+<section class="product-list">
+  <div class="product">
+    <img src="drone.jpeg" alt="Drone" />
+    <h3>Drone</h3>
+    <p>Price: ₹59,999</p>
+    <button onclick="addToWishlist('Drone')">Add to Wishlist</button>
+    <button onclick="addToOrders('Drone')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="Powerbank.jpeg" alt="Power Bank" />
+    <h3>Power Bank</h3>
+    <p>Price: ₹1,999</p>
+    <button onclick="addToWishlist('Power Bank')">Add to Wishlist</button>
+    <button onclick="addToOrders('Power Bank')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="Smartspeaker.jpeg" alt="Smart Speaker" />
+    <h3>Smart Speaker</h3>
+    <p>Price: ₹5,999</p>
+    <button onclick="addToWishlist('Smart Speaker')">Add to Wishlist</button>
+    <button onclick="addToOrders('Smart Speaker')">Order Now</button>
+  </div>
+</section>
+
+<section class="product-list">
+  <div class="product">
+    <img src="SSD.jpeg" alt="External Hard Drive" />
+    <h3>External Hard Drive</h3>
+    <p>Price: ₹6,499</p>
+    <button onclick="addToWishlist('External Hard Drive')">Add to Wishlist</button>
+    <button onclick="addToOrders('External Hard Drive')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=150" alt="VR Headset" />
+    <h3>VR Headset</h3>
+    <p>Price: ₹34,999</p>
+    <button onclick="addToWishlist('VR Headset')">Add to Wishlist</button>
+    <button onclick="addToOrders('VR Headset')">Order Now</button>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1535016120720-40c646be5580?w=150" alt="Projector" />
+    <h3>Projector</h3>
+    <p>Price: ₹12,999</p>
+    <button onclick="addToWishlist('Projector')">Add to Wishlist</button>
+    <button onclick="addToOrders('Projector')">Order Now</button>
+  </div>
+</section>
+
+<section class="product-list">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150" alt="Keyboard" />
+    <h3>Keyboard</h3>
+    <p>Price: ₹2,499</p>
+    <button onclick="addToWishlist('Keyboard')">Add to Wishlist</button>
+    <button onclick="addToOrders('Keyboard')">Order Now</button>
+  </div>
+</section>
+
+<section id="wishlist-section">
+  <h2>Your Wishlist</h2>
+  <ul id="wishlist"></ul>
+</section>
+
+<section id="orders-section">
+  <h2>Your Orders</h2>
+  <ul id="orders"></ul>
+</section>
+
+<footer>© 2025 K-Mart</footer>
+<script src="script.js"></script>
+</body>
+</html>
